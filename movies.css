@@ -1,0 +1,18 @@
+#movies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-top: 50px;
+}
+#img{
+    height: 300px;
+    width: 300px;
+}
+#box{
+    height: 400px;
+    width: 300px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+  }
